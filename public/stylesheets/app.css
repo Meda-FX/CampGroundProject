@@ -1,0 +1,17 @@
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.newForms {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#deleteForm {
+    display: inline;
+}
