@@ -18,11 +18,11 @@
     <% campgrounds.forEach(function(camp){ %>
         <div class="col-md-3 col-sm-6">
             <div class="thumbnail">
-                <img src="<%= camp.image %>">
-                <div calss="caption">
+                <img src="<%= camp.image %>" alt="Campground images.">
+                <div class="caption">
                     <h4><%= camp.name %></h4>
                 </div>
-                <div calss="caption">
+                <div class="caption">
                     <p><%= camp.description.substring(0, 70); %></p>
                 </div>
                 <p>
